@@ -19,3 +19,63 @@ Sad-Game-24 is a Capture the Flag (CTF) web-based game developed using the Go Gi
 #### Static Assets: Templates and styles are embedded directly in the binary using Go's embed package.
 
 #### Real-time Flag Validation: Players can submit flags, and the game validates them instantly.
+
+## Getting Started
+
+#### Prerequisites
+
+### Go: Ensure you have Go installed on your machine. Download it from golang.org.
+
+**Git: Install Git to clone the repository.**
+
+
+#### Installation
+
+1. Clone the repository:
+
+```git clone https://github.com/your-username/sad-game-24.git
+cd sad-game-24```
+
+
+2. Build the project:
+
+```go build -o sad-game-24```
+
+
+3. Run the application:
+
+```./sad-game-24```
+
+
+4. Open your browser and visit:
+
+```http://localhost:8080```
+
+№# How to Play
+
+1. Start the game server.
+
+
+2. Navigate to the homepage (http://localhost:8080) and begin your journey.
+
+
+3. Solve the challenges by submitting the correct flags.
+
+
+4. Progress through levels as you unlock each challenge!
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
+
+## License
+
+This project is powered by SadSec. For inquiries, contact us at sadsechq@gmail.com.
+
+
+## Credits
+
+Developed by SadSec
+Contact: sadsechq@gmail.com
+GitHub: [SadSec](https://github.com/sadsechq)
