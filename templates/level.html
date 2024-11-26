@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level {{ .level }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Level {{ .level }}</h1>
+    <p>Submit the correct flag to proceed!</p>
+    <form action="/level/{{ .level }}" method="POST">
+        <input type="text" name="flag" placeholder="Enter flag">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
